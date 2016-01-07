@@ -61,6 +61,14 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I use Coderunner. It's the first texteditor I came across when I started to code and I found it in the mac app store. I fell in love right away because it simple to use and to be honest I don't feel comfortable using other text editors. Some interesting features including fully customizable templates for each of its programming languages, live run stats, and an interactive console. 
+Useful keyboard shortcuts:
+⌘R runs the code
+⌘/ turns a line or block of code into comments
+⌘] and ⌘[ shift a line or block of code to the left or right
+⌘D duplicates a line or block of code
+
+
+
 
 ---
