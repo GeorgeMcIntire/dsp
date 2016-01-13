@@ -24,8 +24,9 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Lists and sets are both sequences of values. They differ in that sets can only contain unique values, are also unordered, and can contain hashable items. 
 
-list is [1,2,1,2,4,5,3,4,2]
-set is [1,2,4,5,3]
+list example [1,2,1,2,4,5,3,4,2]
+
+set example [1,2,4,5,3]
 
 You can't find an element in a set via index like you can with lists.
 
@@ -35,7 +36,18 @@ You can't find an element in a set via index like you can with lists.
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Lambda is a command to create a short and anonymous function, it works just like a function except you do not assign a function name. It's a more convenient way to create functions in python and preferrable to defining functions when you need to use a certain function only once.
+
+Example1:
+
+my_list = range(16)
+
+filter(lambda x: x % 3 == 0, my_list)
+
+Example2:
+
+sorted("Here is my answer for This Question".split(),  key=str.lower)
+
 
 ---
 
@@ -43,7 +55,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+
 
 ---
 
