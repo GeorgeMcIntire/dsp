@@ -55,6 +55,21 @@ sorted("Here is my answer for This Question".split(),  key=str.lower)
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
+List comprehensions are similar to lambda functions in that they are simpler way of executing a common python action and they're apart of functional programming. And like lambda functions they usually only occupy one line of code.
+
+List comprehension example:
+
+evens = [i for i in range(10) if % 2 == 0]
+
+Dictionary comprehension example:
+
+d = {n: n**2 for n in range(5)}
+
+Set comprehension example:
+
+d = {n**2 for n in range(5)}
+
+
 
 
 ---
