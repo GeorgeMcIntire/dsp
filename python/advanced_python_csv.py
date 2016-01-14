@@ -20,7 +20,12 @@ emails = []
 
 for i in faculty[1:]:
 	emails.append(i[3])
+	
+
 
 import csv 
-wr = csv.writer(b, quoting=csv.QUOTE_ALL)
-wr.writerow(emails)
+
+
+writer = csv.writer(b)
+for e in emails:
+	writer.writerow([e])
