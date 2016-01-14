@@ -7,13 +7,34 @@
 # The below skeleton is optional.  You can use it or you can write the script with an approach of your choice.
 
 
-import csv
+rawfootball = open("/Users/georgemcintire/ds/metis/prework/dsp/python/football.csv", "r")
 
-  def read_data(data):
-   # COMPLETE THIS FUNCTION
+readfootball = rawfootball.read()
 
-  def get_min_score_difference(self, parsed_data):
-    # COMPLETE THIS FUNCTION
+footballrows = readfootball.split('\n')
 
-  def get_team(self, index_value, parsed_data):
-    # COMPLETE THIS FUNCTION
+
+full_data = []
+
+for i in footballrows:
+	splitrow = i.split(",")
+	full_data.append(splitrow)
+
+full_data2 = full_data[1:]	
+
+goaldiff = []
+
+for i in full_data2:
+	goaldiff.append(int(i[5]) - int(i[6]))
+
+
+worstgoaldiff = min(goaldiff)
+
+for i in full_data2:
+	if int(i[5]) - int(i[6]) == worstgoaldiff:
+		print i[0]
+
+
+
+
+
